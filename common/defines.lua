@@ -55,7 +55,7 @@ country = {
 	TECH_FACTOR_VASSAL = 0.25, -- cost reduction factor if overlord has research the tech
 	MAX_SUPPRESSION = 100,
 	PRESTIGE_HIT_ON_BREAK_COUNTRY = -0.20, -- percentage reduction when country gets taken by rebels
-	MIN_MOBILIZE_LIMIT = 3,
+	MIN_MOBILIZE_LIMIT = 0,
 	POP_GROWTH_COUNTRY_CACHE_DAYS = 30, -- period of cached pop growth (used for player)
 	NEWSPAPER_PRINTING_FREQUENCY = 365, -- days frequency when the news attempt to be printed (may not print if not enough facts collected, and retry after another X days)
 	NEWSPAPER_TIMEOUT_PERIOD = 890, -- the max period for news that may be printed. The probability is decreased with time.
@@ -65,8 +65,8 @@ country = {
 	NAVAL_BASE_NON_CORE_SUPPLY_SCORE = 1, -- modifier for supply score for naval bases that are not in core provinces.
 	COLONIAL_POINTS_FROM_SUPPLY_FACTOR = 1,
 	COLONIAL_POINTS_FOR_NON_CORE_BASE = 1,
-	MOBILIZATION_SPEED_BASE = 0.05, -- Base speed for raising troops
-	MOBILIZATION_SPEED_RAILS_MULT = 6.0, -- Speed modifier for raising troops. It's max value for max railways level in state.
+	MOBILIZATION_SPEED_BASE = 0.3, -- Base speed for raising troops
+	MOBILIZATION_SPEED_RAILS_MULT = 7.0, -- Speed modifier for raising troops. It's max value for max railways level in state.
 	COLONIZATION_INTEREST_LEAD = 3,
 	COLONIZATION_INFLUENCE_LEAD = 3,
 	COLONIZATION_MONTHS_TO_COLONIZE = 12,
@@ -129,8 +129,8 @@ economy = {
 },
 
 military = {
-    DIG_IN_INCREASE_EACH_DAYS = 5,
-    REINFORCE_SPEED = 0.2,
+    DIG_IN_INCREASE_EACH_DAYS = 1,
+    REINFORCE_SPEED = 0.25,
     COMBAT_DIFFICULTY_IMPACT = 0.2,
     BASE_COMBAT_WIDTH = 30,
     POP_MIN_SIZE_FOR_REGIMENT = 1000,
@@ -504,7 +504,7 @@ diplomacy = {
 	
 	MIN_WARSCORE_TO_INTERVENE = -1,
 	MIN_MONTHS_TO_INTERVENE = 0,
-	MAX_WARSCORE_FROM_BATTLES = 50,
+	MAX_WARSCORE_FROM_BATTLES = 20,
 	
 	GUNBOAT_DIPLOMATIC_COST = 1,
 	GUNBOAT_RELATION_ON_ACCEPT = 1,
@@ -522,7 +522,7 @@ diplomacy = {
 	
 	-- effects of manually releasing a nation
 	RELEASE_NATION_PRESTIGE = 5,
-	RELEASE_NATION_INFAMY = -5,
+	RELEASE_NATION_INFAMY = -2,
 	
 	INFAMY_CLEAR_UNION_SPHERE = 5, -- Infamy for asserting hegemony
 	
@@ -644,8 +644,8 @@ pops = {
 
     CON_LITERACY = 0.1,
     CON_LUXURY_GOODS = 0.05,
-    CON_POOR_CLERGY = -2,
-    CON_MIDRICH_CLERGY = -1,
+    CON_POOR_CLERGY = 1,
+    CON_MIDRICH_CLERGY = 2,
     CON_REFORM_IMPACT = -50,
     CON_COLONIAL_FACTOR = 0.5,
     RULING_PARTY_HAPPY_CHANGE = -1,
