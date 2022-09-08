@@ -16,13 +16,6 @@ political_decisions = {
 			election = no
 			is_vassal = no
 			war = no
-			OR = { 
-				ruling_party_ideology = traditionalist 
-				ruling_party_ideology = conservative 
-				ruling_party_ideology = nationalist 
-				ruling_party_ideology = populist 
-				ruling_party_ideology = socialist
-			}
 		}
 		effect = {
 		

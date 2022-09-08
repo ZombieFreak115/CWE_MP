@@ -10,10 +10,6 @@ form_ibu = {
 			war = no
 			is_vassal = no
 
-SPA = { OR = { government = hms_government government = hms_government1 government = absolute_monarchy } }
-
-POR = { OR = { government = hms_government government = hms_government1 government = absolute_monarchy } }
-
 		OR = { 
 
 		AND = { 
