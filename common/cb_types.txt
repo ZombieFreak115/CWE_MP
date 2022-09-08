@@ -106,7 +106,7 @@ gunboat = {
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
 	break_truce_militancy_factor = 0
-	truce_months = 6
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -161,7 +161,7 @@ acquire_substate_region = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -174,17 +174,6 @@ acquire_substate_region = {
 THIS = { NOT = { has_country_flag = renounced_war_rights } }
 THIS = { NOT = { has_country_flag = un_armistice } }
 
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot } }
 
 
 		NOT = { is_our_vassal = THIS }
@@ -256,7 +245,7 @@ dismantle_forts = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -270,24 +259,12 @@ dismantle_forts = {
 THIS = { NOT = { has_country_flag = renounced_war_rights } }
 THIS = { NOT = { has_country_flag = un_armistice } }
 
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-NOT = { war_policy = pacifism } war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot } }
 
 
 		NOT = {
 			is_our_vassal = THIS
 			has_country_flag = neutrality
 		}
-		is_vassal = no
 		OR = {
 			war_with = THIS
 			THIS = {
@@ -421,7 +398,7 @@ status_quo = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	badboy_factor = 1
 	prestige_factor = 1
@@ -461,26 +438,6 @@ conquest = {
 
 		THIS = { NOT = { has_country_flag = un_armistice } }
 
-		THIS = { 
-			OR = { 
-
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				war_policy = jingoism 
-				war = yes 
-				has_country_flag = world_medium 
-				has_country_flag = world_high 
-				has_country_flag = cold_war_high 
-				has_country_modifier = cold_war_hot 
-			} 
-		}
-
 		#Target state size
 		OR = {
 			#Superpowers and Nationalist Dictatorships can annex any size
@@ -505,7 +462,6 @@ conquest = {
 				NOT = { number_of_states = 2 }
 			}
 		}
-		is_independant = yes
 	}
 
 	badboy_factor = 2.2
@@ -516,7 +472,7 @@ conquest = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -565,7 +521,7 @@ civil_war = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -613,7 +569,7 @@ rebel_civil_war = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -660,7 +616,7 @@ acquire_any_state = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -711,7 +667,7 @@ assert_hegemony = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -731,7 +687,7 @@ THIS = { NOT = { has_country_flag = un_armistice } }
 THIS = { OR = { ai = no war = yes } }
 
 #Superpower attacker
-THIS = { is_greater_power = yes OR = { has_country_modifier = un_king1 has_country_modifier = un_king2 } is_disarmed = no NOT = { war_policy = pacifism } }
+THIS = { is_greater_power = yes OR = { has_country_modifier = un_king1 has_country_modifier = un_king2 } is_disarmed = no }
 
 #Superpower defender
 is_greater_power = yes
@@ -777,7 +733,7 @@ add_to_sphere = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -790,18 +746,6 @@ THIS = { NOT = { has_country_modifier = no_more_war } }
 THIS = { NOT = { has_country_flag = renounced_war_rights } }
 THIS = { is_greater_power = yes }
 THIS = { NOT = { has_country_flag = un_armistice } }
-
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-NOT = { war_policy = pacifism } war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot } }
 
 
 		is_greater_power = no
@@ -850,7 +794,7 @@ take_from_sphere = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -864,17 +808,6 @@ THIS = { NOT = { has_country_flag = renounced_war_rights } }
 THIS = { NOT = { has_country_flag = un_armistice } }
 NOT = { is_our_vassal = THIS }
 
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-NOT = { war_policy = pacifism } war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot } }
 
 
 		THIS = { is_greater_power = yes }
@@ -928,7 +861,7 @@ acquire_core_state = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -941,24 +874,6 @@ acquire_core_state = {
 
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
-
-		OR = { THIS = { ai = no } AND = { THIS = { ai = yes } NOT = { relation = { who = THIS value = -100 } } } }
-
-		THIS = { 
-			OR = { 
-
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				NOT = { war_policy = pacifism } war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot 
-			
-			} 
-		}
 
 		OR = {
 			#annex if you want their last state
@@ -1030,7 +945,7 @@ annex_core_country = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1041,25 +956,6 @@ annex_core_country = {
 		THIS = { NOT = { has_country_modifier = no_more_war } }
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
-
-		THIS = { 
-			OR = { 
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				NOT = { war_policy = pacifism } 
-				war = yes 
-				has_country_flag = world_medium 
-				has_country_flag = world_high 
-				has_country_flag = cold_war_high 
-				has_country_modifier = cold_war_hot 
-			} 
-		}
 
 		OR = {
 		
@@ -1140,7 +1036,7 @@ acquire_state = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1157,17 +1053,6 @@ THIS = { NOT = { has_country_flag = un_armistice } }
 	
 number_of_states = 2 # annex if you want their last state
 
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot } }
 		
 		any_owned_province = {
 			NOT = { is_core = THIS }
@@ -1192,7 +1077,6 @@ war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag
 				}
 			}
 		}
-		is_independant = yes
 	}
 	
 	allowed_states = {
@@ -1250,7 +1134,7 @@ acquire_colonial_state = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1267,17 +1151,6 @@ THIS = { NOT = { has_country_flag = un_armistice } }
 	
 number_of_states = 2 # annex if you want their last state
 
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot } }
 		
 		any_owned_province = {
 			NOT = { is_core = THIS }
@@ -1299,7 +1172,6 @@ war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag
 				}
 			}
 		}
-		is_independant = yes
 	}
 	
 	allowed_states = {
@@ -1355,7 +1227,7 @@ acquire_naval_base = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1371,20 +1243,6 @@ THIS = { NOT = { has_country_flag = renounced_war_rights } }
 THIS = { NOT = { has_country_flag = un_armistice } }
 	
 number_of_states = 2 # annex if you want their last state
-
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot 
-
-} }
 		
 		any_owned_province = {
 			NOT = { is_core = THIS }
@@ -1392,7 +1250,6 @@ war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag
 			has_building = naval_base
 			is_capital = no 
 		}
-		is_independant = yes
 	}
 	
 	allowed_states = {
@@ -1447,7 +1304,7 @@ cut_down_to_size = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1471,28 +1328,7 @@ cut_down_to_size = {
 		#THIS is not disarmed
 		THIS = { is_disarmed = no }
 		
-		#THIS is not a vassal
-		THIS = { is_vassal = no }
 
-		THIS = { 
-			OR = { 
-
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				NOT = { war_policy = pacifism } 
-				war = yes 
-				has_country_flag = world_medium 
-				has_country_flag = world_high 
-				has_country_flag = cold_war_high 
-				has_country_modifier = cold_war_hot 
-			} 
-		}
 
 	}
 	
@@ -1535,7 +1371,7 @@ annex_all_colonial_cores = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1549,22 +1385,6 @@ annex_all_colonial_cores = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 
-		THIS = { 
-		
-			OR = { 
-
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				NOT = { war_policy = pacifism } war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot 
-			}
-			
-		}
 
 		THIS = { NOT = { has_country_flag = neutrality } }
 		
@@ -1680,7 +1500,7 @@ annex_all_cores = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1694,22 +1514,6 @@ annex_all_cores = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 
-		THIS = { 
-		
-			OR = { 
-
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				NOT = { war_policy = pacifism } war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot 
-			}
-			
-		}
 
 		THIS = { NOT = { has_country_flag = neutrality } }
 		
@@ -1825,7 +1629,7 @@ annex_un_occupied_territories = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1838,26 +1642,6 @@ annex_un_occupied_territories = {
 		#CWE conditions
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 
-		THIS = { 
-		
-			OR = { 
-
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				NOT = { war_policy = pacifism }
-				war = yes 
-				has_country_flag = world_high 
-				has_country_flag = cold_war_high 
-				has_country_modifier = cold_war_hot 
-			}
-			
-		}
 
 		THIS = { NOT = { has_country_flag = neutrality } }
 		
@@ -1941,7 +1725,7 @@ free_allied_cores = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1955,21 +1739,9 @@ THIS = { NOT = { has_country_modifier = no_more_war } }
 THIS = { NOT = { has_country_flag = renounced_war_rights } }
 THIS = { NOT = { has_country_flag = un_armistice } }
 
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-NOT = { war_policy = pacifism } war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot } }
 
 
 		NOT = { is_our_vassal = THIS }
-		is_vassal = no
 		number_of_states = 2
 		OR = {
 			war_with = THIS
@@ -2062,7 +1834,7 @@ free_peoples = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2077,18 +1849,6 @@ NOT = { is_our_vassal = THIS }
 THIS = { NOT = { has_country_flag = renounced_war_rights } }
 THIS = { NOT = { has_country_flag = un_armistice } }
 
-
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-NOT = { war_policy = pacifism } war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot } }
 
 
 		OR = { 
@@ -2166,7 +1926,7 @@ liberate_country = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2180,27 +1940,7 @@ liberate_country = {
 		NOT = { is_our_vassal = THIS }
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
-
-		THIS = { 
-			OR = { 
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				NOT = { war_policy = pacifism } 
-				war = yes 
-				has_country_flag = world_medium 
-				has_country_flag = world_high 
-				has_country_flag = cold_war_high 
-				has_country_modifier = cold_war_hot 
-			}
-		}
 		
-		OR = { number_of_states = 2 war = yes }
 
 	}
 
@@ -2315,7 +2055,7 @@ assisted_unification = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2333,27 +2073,12 @@ assisted_unification = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 
-		THIS = { 
-			OR = { 
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
 
-				war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot 
-			} 
-		}
-
-		is_vassal = no
 		
 		THIS = {
 			OR = { 
 				ai = no
 				AND = { 
-					NOT = { war_policy = pacifism }
 					NOT = { has_country_flag = international_court_of_justice }
 					NOT = { OR = { government = democracy government = hms_government government = democracy1 government = hms_government1 } }
 				}
@@ -2457,7 +2182,7 @@ release_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2471,18 +2196,6 @@ THIS = { NOT = { has_country_flag = renounced_war_rights } }
 NOT = { is_our_vassal = THIS }
 THIS = { NOT = { has_country_flag = un_armistice } }
 
-
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-NOT = { war_policy = pacifism } war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot } }
 
 
 		num_of_vassals_no_substates = 1
@@ -2532,7 +2245,7 @@ steal_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2544,17 +2257,6 @@ THIS = { NOT = { has_country_modifier = no_more_war } }
 THIS = { NOT = { has_country_flag = renounced_war_rights } }
 THIS = { NOT = { has_country_flag = un_armistice } }
 
-THIS = { OR = { 
-
-government = theocracy
-government = absolute_monarchy
-government = populist_dictatorship
-government = nationalist_dictatorship
-government = presidential_dictatorship
-government = proletarian_dictatorship
-government = proletarian_dictatorship1
-
-NOT = { war_policy = pacifism } war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot } }
 
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
@@ -2646,7 +2348,7 @@ make_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2658,22 +2360,8 @@ make_puppet = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		NOT = { is_our_vassal = THIS }
 		THIS = { NOT = { has_country_flag = un_armistice } }
-		NOT = { number_of_states = 9 }
+		NOT = { number_of_states = 15 }
 
-
-		THIS = { 
-			OR = { 
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot 
-			} 
-		}
 
 
 		is_greater_power = no
@@ -2729,7 +2417,7 @@ become_independent = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2740,7 +2428,6 @@ become_independent = {
 		THIS = { NOT = { has_country_modifier = no_more_war } }
 
 		is_our_vassal = THIS
-		THIS = { NOT = { war_policy = pacifism } }
 	}
 	
 	# THIS - us
@@ -2796,7 +2483,7 @@ stop_independence = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2842,7 +2529,7 @@ humiliate = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2865,27 +2552,12 @@ humiliate = {
 		NOT = { is_our_vassal = THIS }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 
-		THIS = { 
-			OR = { 
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
 
-				war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot 
-			} 
-		}
-
-		is_vassal = no
 		
 		THIS = {
 			OR = { 
 				ai = no
 				AND = { 
-					NOT = { war_policy = pacifism }
 					NOT = { has_country_flag = international_court_of_justice }
 					NOT = { OR = { government = democracy government = hms_government government = democracy1 government = hms_government1 } }
 				}
@@ -2924,7 +2596,7 @@ destroy_wmd = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -2952,23 +2624,6 @@ destroy_wmd = {
 			has_country_modifier = chemical_nation
 			has_country_modifier = bio_nation
 		}
-
-		THIS = { 
-			OR = { 
-
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot 
-
-			} 
-		}
-		is_vassal = no
 	}			
 	on_add = {
 	
@@ -3010,7 +2665,7 @@ territorial_dispute = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3027,29 +2682,9 @@ territorial_dispute = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		NOT = { is_our_vassal = THIS }
 		THIS = { NOT = { has_country_flag = un_armistice } }
-		is_vassal = no
 		THIS = {
 			OR = { part_of_sphere = no ai = no }
 			NOT = { has_country_flag = international_court_of_justice }
-		}
-
-		THIS = { 
-			OR = { 
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				NOT = { war_policy = pacifism } 
-				war = yes 
-				has_country_flag = world_medium 
-				has_country_flag = world_high 
-				has_country_flag = cold_war_high 
-				has_country_modifier = cold_war_hot 
-			}
 		}
 		
 		#Attacker must be in the UNGA to dispute territory
@@ -3186,7 +2821,7 @@ territorial_dispute_internal = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3231,7 +2866,7 @@ war_reparations = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3285,7 +2920,7 @@ support_insurgency = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3297,13 +2932,12 @@ THIS = { NOT = { has_country_modifier = no_more_war } }
 THIS = { NOT = { has_country_flag = renounced_war_rights } }
 THIS = { NOT = { has_country_flag = un_armistice } }
 
-THIS = { OR = { war_policy = jingoism ai = no } NOT = { war_policy = pacifism } war = no }
+THIS = { war = no }
 
 NOT = { in_sphere = THIS }
 
 		revolt_percentage = 0.25
 		war = no
-		is_vassal = no
 		civilized = yes
 
 	}
@@ -3349,7 +2983,7 @@ install_democracy = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3366,7 +3000,6 @@ install_democracy = {
 			OR = { 
 				AND = { has_country_flag = truman_doctrine has_global_flag = blocsenabled }
 				AND = {
-					OR = { war_policy = jingoism war_policy = pro_military } 
 
 					OR = { is_greater_power = yes is_secondary_power = yes ai = no }
 
@@ -3438,7 +3071,7 @@ install_authoritarian_regime = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3451,7 +3084,6 @@ install_authoritarian_regime = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 		THIS = {
-			OR = { war_policy = jingoism war_policy = pro_military }
 			OR = {
 				is_greater_power = yes
 				is_secondary_power = yes
@@ -3509,7 +3141,7 @@ install_absolute_monarchy = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3522,7 +3154,6 @@ install_absolute_monarchy = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 		THIS = {
-			OR = { war_policy = jingoism war_policy = pro_military }
 			OR = {
 				is_greater_power = yes
 				is_secondary_power = yes
@@ -3578,7 +3209,7 @@ install_socialist_democracy = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3591,7 +3222,6 @@ install_socialist_democracy = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 
-		THIS = { OR = { war_policy = pro_military war_policy = jingoism } }
 
 		THIS = {
 			# If actor is a GP or SP or player
@@ -3672,7 +3302,7 @@ install_theocratic_regime = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3686,7 +3316,6 @@ install_theocratic_regime = {
 		THIS = { NOT = { has_country_flag = un_armistice } }
 		THIS = {
 			government = theocracy
-			OR = { war_policy = jingoism war_policy = pro_military }
 		}
 		OR = { is_vassal = no is_our_vassal = THIS }
 		civilized = yes
@@ -3744,7 +3373,7 @@ install_communist_gov_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3759,7 +3388,6 @@ install_communist_gov_cb = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 
-		THIS = { OR = { war_policy = pro_military war_policy = jingoism } }
 
 		THIS = {
 			# If actor is a GP or SP or player
@@ -3847,7 +3475,7 @@ uninstall_communist_gov_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3860,7 +3488,6 @@ uninstall_communist_gov_cb = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 
-		THIS = { OR = { war_policy = pro_military war_policy = jingoism } }
 
 		THIS = {
 			# If actor ruling party is not communist
@@ -3916,7 +3543,7 @@ overthrow_gov_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -3967,7 +3594,7 @@ free_dismantle_cb = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -4030,7 +3657,7 @@ dismantle_cb = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -4041,27 +3668,6 @@ dismantle_cb = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 
-		THIS = { 
-			OR = { 
-
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				war_policy = jingoism 
-				
-				war = yes 
-				
-				has_country_flag = world_high 
-				
-				has_country_flag = cold_war_high 
-				has_country_modifier = cold_war_hot 
-			} 
-		}
 		
 		#Stop AI trigger happiness - AI only start dismantle wars if it is a superpower or Cold War is over
 		THIS = { 
@@ -4094,7 +3700,6 @@ dismantle_cb = {
 		}	
 		
 		is_disarmed = no
-		is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		NOT = { has_country_flag = dismantle_declared }
         OR = {
@@ -4194,7 +3799,7 @@ dismantle_cb_add = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -4207,20 +3812,6 @@ dismantle_cb_add = {
 		NOT = { has_country_modifier = neutrality }
 		NOT = { has_country_flag = dismantle_declared }
 
-		THIS = { 
-			OR = { 
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot 
-			} 
-		}
-
 		has_country_flag = in_great_war
 		OR = {
 			is_greater_power = yes
@@ -4230,7 +3821,6 @@ dismantle_cb_add = {
 		}
 		civilized = yes
 		is_disarmed = no
-		is_vassal = no
 		war_with = THIS
 		THIS = {
 			NOT = { has_country_modifier = neutrality }
@@ -4313,7 +3903,7 @@ dismantle_cb_add_new = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -4323,26 +3913,11 @@ dismantle_cb_add_new = {
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
 
-		THIS = { 
-			OR = { 
-				government = theocracy
-				government = absolute_monarchy
-				government = populist_dictatorship
-				government = nationalist_dictatorship
-				government = presidential_dictatorship
-				government = proletarian_dictatorship
-				government = proletarian_dictatorship1
-
-				war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag = world_high has_country_flag = cold_war_high has_country_modifier = cold_war_hot 
-			} 
-		}
-
 		NOT = { is_our_vassal = THIS }
 		NOT = { has_country_flag = dismantle_declared }
 		NOT = { has_country_modifier = neutrality }
 		is_greater_power = yes		
 		is_disarmed = no
-		is_vassal = no
 		war_with = THIS
 		THIS = {
 			NOT = { has_country_modifier = neutrality }
@@ -4461,7 +4036,7 @@ rude_boy = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -4475,7 +4050,6 @@ rude_boy = {
 		THIS = { NOT = { has_country_modifier = no_more_war } }
 		THIS = { NOT = { has_country_flag = renounced_war_rights } }
 		THIS = { NOT = { has_country_flag = un_armistice } }
-		THIS = { NOT = { war_policy = pacifism } }
 		THIS = { is_disarmed = no }
 		
 		#Target
@@ -4568,7 +4142,7 @@ great_war_penalty_cb = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 48
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -4597,4 +4171,109 @@ great_war_penalty_cb = {
 		set_country_flag = this_lost_CB
 	}
 
+}
+
+#Negotiated Transfer
+negotiated_transfer = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 0
+	crisis = no
+
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 0
+	penalty_factor = 0
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 0
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	construction_speed = 2000.0
+
+	can_use = {
+		NOT = { tag = UTI }
+		number_of_states = 2 # annex if you want their last state
+		is_independant = yes
+		ai = no
+		THIS = { civilized = yes }
+		THIS = { ai = no } 
+	}
+	
+	allowed_states = {
+		not = { any_owned_province = { is_capital = yes } }
+	}
+
+	po_demand_state = yes
+	
+	war_name = WAR_NEGOTIATE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.00
+		}
+	}
+}
+
+3_way_transfer = {
+	sprite_index = 5
+	is_triggered_only = yes
+	months = 0
+	crisis = no
+
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 0
+	penalty_factor = 0
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 0
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	construction_speed = 1000.0
+
+	can_use = {
+		NOT = { tag = UTI }
+		is_independant = yes
+		ai = no
+		THIS = { ai = no } 
+	}
+	
+	allowed_states = {
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	allowed_countries = {
+		FROM = {
+		ai = no
+		exists = yes
+		civilized = yes
+		}
+		NOT = { tag = FROM }
+		ai = no
+		THIS = { ai = no }
+	}
+
+	po_transfer_provinces = yes
+	
+	war_name = WAR_NEGOTIATE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.00
+		}
+	}
 }
