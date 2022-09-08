@@ -7,6 +7,8 @@
 - Reduced the building time of infrastructure, ports and forts significantly
 - Changed military policies to be less dumb
 - Changed economic policies to be less dumb
+- faster mob times
+- faster reinforcement
 - Removed mob size from citizenship policy
 - Increased mob eco impact from NVs
 - Made the war exhastion gain be similar to vanilla, and removed alot of external W.E effects

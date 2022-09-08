@@ -17,7 +17,7 @@ patrolboat = {
 	priority = 5
 	max_strength = 100
 	default_organisation = 10
-	maximum_speed = 18
+	maximum_speed = 36
 	weighted_value = 1.0
 	can_build_overseas = yes
 

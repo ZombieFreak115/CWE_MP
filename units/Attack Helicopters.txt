@@ -32,9 +32,6 @@ missile = {
 		ammunition = 0.2
 		canned_food = 0.02
 		fuel = 0.5
-		clothes = 0.01
-		clothes_footwear = 0.01
-		optics = 0.1
 		aeroplanes = 0.1
 	}
 

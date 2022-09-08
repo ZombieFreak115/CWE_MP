@@ -46,6 +46,21 @@ pollution = no_controls
 wage_and_work_hours = unregulated_hours
 social_service_reform = no_social_service
 # Technologies
+international_financial_institutions = 1
+gold_standard = 1
+keynesian_economics = 1
+marshall_plan = 1
+late_fordism = 1
+quantum_physics = 1
+radio_network = 1
+compulsory_primary_education = 1
+containment = 1
+decolonization = 1
+fossil_fuel_power = 1
+radio = 1
+intensive_farming = 1
+modern_roads = 1
+electricity = 1
 post_war_radar = 1
 strategic_bomber = 1
 icbm = 1
@@ -65,6 +80,11 @@ mutual_assured_destruction = 1
 consciousness = 1
 nonstate_consciousness = 1
 schools = army_tech_school
+oob = "/ISR_oob.txt"
+
+1950.1.1 = {
+	oob = "1950/ISR_oob.txt"
+}
 
 1992.1.1 = {
 	capital = 917

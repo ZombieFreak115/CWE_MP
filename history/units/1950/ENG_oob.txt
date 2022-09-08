@@ -1347,4 +1347,1501 @@ navy = {
 		name= "RMS Aurania"
 		type = transportship
 	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+}
+
+navy = {
+	name = "British Merchant Navy"
+	location = 1923
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+}
+
+army = {
+	name = "British Main Army"
+	location = 287
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+		regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
 }

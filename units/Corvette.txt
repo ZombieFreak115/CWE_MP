@@ -17,7 +17,7 @@ modern_frigate = {
 	priority = 10
 	max_strength = 100
 	default_organisation = 20
-	maximum_speed = 15
+	maximum_speed = 30
 	weighted_value = 1.0
 	can_build_overseas = yes
 

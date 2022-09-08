@@ -73,6 +73,12 @@ command_of_the_sea = 1
 consciousness = 1
 nonstate_consciousness = 1
 schools = industrial_tech_school
+oob = "/GER_oob.txt"
+
+1950.1.1 = {
+	oob = "1950/GER_oob.txt"
+
+}
 
 1992.1.1 = {
 	capital = 549

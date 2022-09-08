@@ -20,7 +20,7 @@ modern_destroyer = {
 	priority = 45
 	max_strength = 100
 	default_organisation = 50
-	maximum_speed = 12
+	maximum_speed = 24
 	weighted_value = 5.0
 	
 

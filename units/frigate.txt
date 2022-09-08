@@ -17,7 +17,7 @@ frigate = {
 	priority = 15
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 14
+	maximum_speed = 28
 	weighted_value = 5.0
 	can_build_overseas = yes
 

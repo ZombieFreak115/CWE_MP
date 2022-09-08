@@ -372,7 +372,7 @@ political_decisions = {
 		picture = "international_court_of_justice"
 		alert = no
 		potential = {
-			year = 1947
+			year = 3000 # impossible to take for now
 			NOT = { has_country_flag = international_court_of_justice }
 		}
 		allow = {

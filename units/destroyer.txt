@@ -18,7 +18,7 @@ destroyer = {
 	priority = 13
 	max_strength = 100
 	default_organisation = 25
-	maximum_speed = 13
+	maximum_speed = 26
 	weighted_value = 2.0
 	can_build_overseas = yes
 

@@ -390,4 +390,497 @@ navy = {
 		name= "PLM 22"
 		type = transportship
 	}
+	ship = {
+		name= "Cagou"
+		type = transportship
+	}
+	ship = {
+		name= "Casamance"
+		type = transportship
+	}
+	ship = {
+		name= "Djudjura"
+		type = transportship
+	}
+	ship = {
+		name= "Félix Roussel"
+		type = transportship
+	}
+	ship = {
+		name= "Fort Binger"
+		type = transportship
+	}
+	ship = {
+		name= "Franche-Comté"
+		type = transportship
+	}
+	ship = {
+		name= "Gravelines"
+		type = transportship
+	}
+	ship = {
+		name= "Île-de-Batz"
+		type = transportship
+	}
+	ship = {
+		name= "Indochinois"
+		type = transportship
+	}
+	ship = {
+		name= "Kilissi"
+		type = transportship
+	}
+	ship = {
+		name= "PLM 22"
+		type = transportship
+	}
+	ship = {
+		name= "Cagou"
+		type = transportship
+	}
+	ship = {
+		name= "Casamance"
+		type = transportship
+	}
+	ship = {
+		name= "Djudjura"
+		type = transportship
+	}
+	ship = {
+		name= "Félix Roussel"
+		type = transportship
+	}
+	ship = {
+		name= "Fort Binger"
+		type = transportship
+	}
+	ship = {
+		name= "Franche-Comté"
+		type = transportship
+	}
+	ship = {
+		name= "Gravelines"
+		type = transportship
+	}
+	ship = {
+		name= "Île-de-Batz"
+		type = transportship
+	}
+	ship = {
+		name= "Indochinois"
+		type = transportship
+	}
+	ship = {
+		name= "Kilissi"
+		type = transportship
+	}
+	ship = {
+		name= "PLM 22"
+		type = transportship
+	}
+	ship = {
+		name= "Cagou"
+		type = transportship
+	}
+	ship = {
+		name= "Casamance"
+		type = transportship
+	}
+	ship = {
+		name= "Djudjura"
+		type = transportship
+	}
+	ship = {
+		name= "Félix Roussel"
+		type = transportship
+	}
+	ship = {
+		name= "Fort Binger"
+		type = transportship
+	}
+	ship = {
+		name= "Franche-Comté"
+		type = transportship
+	}
+	ship = {
+		name= "Gravelines"
+		type = transportship
+	}
+	ship = {
+		name= "Île-de-Batz"
+		type = transportship
+	}
+	ship = {
+		name= "Indochinois"
+		type = transportship
+	}
+	ship = {
+		name= "Kilissi"
+		type = transportship
+	}
+	ship = {
+		name= "PLM 22"
+		type = transportship
+	}
+	ship = {
+		name= "Cagou"
+		type = transportship
+	}
+	ship = {
+		name= "Casamance"
+		type = transportship
+	}
+	ship = {
+		name= "Djudjura"
+		type = transportship
+	}
+	ship = {
+		name= "Félix Roussel"
+		type = transportship
+	}
+	ship = {
+		name= "Fort Binger"
+		type = transportship
+	}
+	ship = {
+		name= "Franche-Comté"
+		type = transportship
+	}
+	ship = {
+		name= "Gravelines"
+		type = transportship
+	}
+	ship = {
+		name= "Île-de-Batz"
+		type = transportship
+	}
+	ship = {
+		name= "Indochinois"
+		type = transportship
+	}
+	ship = {
+		name= "Kilissi"
+		type = transportship
+	}
+	ship = {
+		name= "PLM 22"
+		type = transportship
+	}
+}
+
+
+
+army = {
+	name = "France Main Army"
+	location = 411
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 425
+	}
 }

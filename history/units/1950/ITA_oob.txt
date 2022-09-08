@@ -233,6 +233,232 @@ army = {
 	}
 }
 
+army = {
+	name = "1st army"
+	location = 749
+	regiment = {
+		name= "4° Stormo"
+		type = cavalry
+		home = 749
+	}
+	regiment = {
+		name= "5° Stormo"
+		type = cavalry
+		home = 749
+	}
+	regiment = {
+		name= "51° Stormo"
+		type = cavalry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = bomber
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = bomber
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = bomber
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = bomber
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = bomber
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = bomber
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = bomber
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = bomber
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = bomber
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = bomber
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = infantry
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = tank
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = tank
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = tank
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = tank
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = tank
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = tank
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = artillery
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = artillery
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = artillery
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = artillery
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = artillery
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = artillery
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = artillery
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = artillery
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = artillery
+		home = 749
+	}
+	regiment = {
+		name= "Stormo Baltimore"
+		type = artillery
+		home = 749
+	}
+
+}
+
 navy = {
 	name = "Regia Marina"
 	location = 724

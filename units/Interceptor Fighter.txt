@@ -33,8 +33,6 @@ cavalry = {
 		ammunition = 0.1
 		canned_food = 0.02
 		fuel = 0.25
-		machine_parts = 0.15
-		electric_gear = 0.1
 	}
 
 	#Land Abilties

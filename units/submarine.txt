@@ -19,7 +19,7 @@ submarine = {
 	priority = 10
 	max_strength = 100
 	default_organisation = 15
-	maximum_speed = 10
+	maximum_speed = 20
 	weighted_value = 5.0
 	can_build_overseas = yes
 
