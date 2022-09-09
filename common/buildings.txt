@@ -1495,7 +1495,7 @@ railroad = {
 		machine_parts = 50
 		electric_gear = 50
 	}
-	time = 170
+	time = 200
 	visibility = yes
 	onmap = yes
 	max_level = 7
